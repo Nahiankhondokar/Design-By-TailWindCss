@@ -6,16 +6,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
-  <body class="">
-    <div class="">
-      <img src="/image/2.jpg" alt="" />
-      <div>
-        <div>
-          <h1 class="text-3xl font-bold underline">Hello world!</h1>
-          <h1 class="bg-red-800">Learn with sumit</h1>
-          <h2>YouTube channel</h2>
+  <body class="h-screen flex items-center justify-center bg-gray-100">
+    <div class="max-w-sm mx-auto bg-white p-8 rounded-xl shadow-md space-y-2">
+      <img
+        class="h-24 w-24 rounded-full ring-4 ring-green-400 object-cover mx-auto"
+        src="/image/2.jpg"
+        alt=""
+      />
+      <div class="text-center space-y-2">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">Learn with sumit</p>
+          <p class="text-gray-500 font-medium">YouTube channel</p>
         </div>
-        <button>Submit</button>
+        <button
+          class="border px-4 py-1 rounded-full border-purple-500 text-sm text-purple-600 font-semibold"
+        >
+          Submit
+        </button>
       </div>
     </div>
   </body>
