@@ -444,6 +444,11 @@ video {
   display: none;
 }
 
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -757,6 +762,10 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.custom-size {
+  font-size: 10px;
 }
 
 .hover\:scale-105:hover {
